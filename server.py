@@ -18,7 +18,7 @@ import db
 PORT = int(os.environ.get("PORT", 8080))
 API_BASE = "https://klinggiare.com"
 API_KEY = os.environ.get("KLING_API_KEY", "kling_sk_6bV7-Nvtk9GruKUDL-uMl0OfUXQEldZt_3lQF0MyLhE")
-ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "xenoecom@admin2026")
+ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "Theanh2025@")
 
 # Token tĩnh cho Admin - đảm bảo không bị logout khi khởi động lại server
 ADMIN_STATIC_TOKEN = "xenoecom_adm_" + hashlib.sha256(("xenoecom_admin_salt_" + ADMIN_PASSWORD).encode("utf-8")).hexdigest()[:24]
